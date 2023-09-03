@@ -140,7 +140,7 @@ start_button = tk.Button(root, text="Старт", command=start_processing)
 start_button.pack(pady=10)
 
 # Получаем или создаем папки "yes," "trebles," и "done"______________________________________________________________
-# input_folder = filedialog.askdirectory(initialdir="/path/to/starting/directory", title="Выберите каталог для сохранения файла")
+
 input_folder = r"C:"
 
 # Создаем папки "ready," "trebles," и "originals" внутри папки input_folder, если они не существуют
